@@ -1,8 +1,6 @@
-:root {
-  --off-white: #fafafa;
-}
+
 .nav {
-  background-color: var(--off-white);
+  background-color:#0a0918;
   position: sticky;
   top: 0px;
   width: 100%;
@@ -21,6 +19,7 @@
 }
 
 .nav .nav-content {
+  
   max-width: 900px;
   padding: 0rem 3rem;
   margin: 0 auto;
@@ -33,15 +32,12 @@
 .nav-item {
   display: inline;
   margin-left: 2rem;
-  color: #333;
+  color: white;
 }
 
 .nav-item:hover {
-  color: black;
+  color: white;
   cursor: pointer;
-}
-
-.section {
 }
 
 .section-dark {

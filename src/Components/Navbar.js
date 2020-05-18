@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../logo.svg";
+import logo from "../images/headshot.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 export default class Navbar extends Component {
@@ -21,13 +21,13 @@ export default class Navbar extends Component {
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section1"
+                to="home"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-                Section 1
+                Home
               </Link>
             </li>
             <li className="nav-item">
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
                 offset={-70}
                 duration={500}
               >
-                Section 2
+                About
               </Link>
             </li>
             <li className="nav-item">
@@ -52,30 +52,6 @@ export default class Navbar extends Component {
                 duration={500}
               >
                 Section 3
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="section4"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 4
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="section5"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-                Section 5
               </Link>
             </li>
           </ul>
