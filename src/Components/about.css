@@ -14,6 +14,25 @@
     text-align: center;
     color: #0a0918;
 }
-#pic{
-    height: 400px;
+.flex{
+    justify-content: flex-start;
+    display:flex;
+    flex-flow: column wrap;
+    top:10%;
+    margin:auto;
+}
+.flex-cols{
+    justify-content: flex-start;
+    display:flex;
+    flex-flow: column wrap;
+    top:10%;
+    margin:auto;
+}
+img{
+    vertical-align: top;
+    margin:auto;
+}
+.description{
+    text-align: center;
+    width:45%;
 }
